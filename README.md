@@ -3,7 +3,7 @@
 Part 2 of Data Mining 
 
 Your report should be a self-contained markdown file with a description of your answers, 
-the code copied inside of it and the images embedded.
+relevant code copied inside of it and the images embedded.
 
 
 # Part II - Image Compression using K-Means
@@ -34,7 +34,8 @@ Test your code by generating a CVT diagram in the region (0 2) × (0 2) using 10
  2. Use 100 sampling points per generator, display your tessellation.  
  3. Use 1000 sampling points per generator, display your tessellation. 
  4. Tabulate the number of iterations required to converge in each case. 
- 5. Plot the cluster variance for each iteration.  6. Describe What conclusions can you draw from your result?
+ 5. Plot the cluster variance for each iteration.
+ 6. 6. Describe What conclusions can you draw from your result?
 
 ## (20 pts) Problem 2
 Use the grayscale image boat.tiff and modify your algorithm (you can create new functions)
