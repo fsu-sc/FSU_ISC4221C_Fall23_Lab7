@@ -22,10 +22,10 @@ In this problem, you will generate a CVT using a probabilistic Lloyd’s method 
 
  As a suggestion, you can make a function with the following prototype:
 
-    ```python
-        def probLloyds(dims, m, a, b, maxIter, tol):
-    ```
-        where dims is the dimension of the box, m is the number of generators, a and b are the lower and upper bounds of each dimension, maxIter is the maximum number of iterations, and tol is the tolerance for the stopping criteria. The function should return the generators and the cluster variance. 
+```python
+   def probLloyds(dims, m, a, b, maxIter, tol):
+```
+where `dims` is the dimension of the box, `m` is the number of generators, `a` and `b` are the lower and upper bounds of each dimension, `maxIter` is the maximum number of iterations, and `tol` is the tolerance for the stopping criteria. The function should return the generators and the cluster variance. 
 
 Test your code by generating a CVT diagram in the region (0 2) × (0 2) using 100 generators. You can use *Voronoi* from 
 *scipy.spatial* to plot the CVT (as in the class example). Use a maximum number of iterations 300 and a stopping criteria of distance between current and previous clusters ($\max_{j = 1, ..., k} ||c^{k+1}_j - c^{k}_j || \leq \text{tolerance}.$) with a tolerance of 0.005 for each case. 
